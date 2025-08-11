@@ -3,6 +3,8 @@
 If you’re reading this, you’ve likely been directed here because your HRTF dataset failed angular distance or coverage checks.  
 This tool helps you evaluate the spatial sampling quality of SOFA-format HRTF files.
 
+<img src="EmitterDirectionsOnUnitSphere.png" alt="Diagram" width="400" />
+
 ## System Requirements
 
 - **SOFA Toolbox for Matlab and Octave** version 2.2.0 or later is required.  
