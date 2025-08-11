@@ -18,7 +18,7 @@ elevation = hrtf.SourcePosition(:,2);
 emitters = [x,y,z];
 
 % Generate reference grid points over hemisphere
-N_az = 72;    % azimuth divisions (5° steps)
+N_az = 73;    % azimuth divisions (5° steps)
 N_el = 19;    % elevation divisions (5° steps from 0 to 90)
 
 azimuths = linspace(0, 360, N_az);
