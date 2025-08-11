@@ -1,7 +1,8 @@
 # HRTF Diagnostic Tool
 
-If you’re reading this, you’ve likely been directed here because your HRTF dataset failed angular distance or coverage checks.  
-This tool helps you evaluate the spatial sampling quality of SOFA-format HRTF files.
+If you’re reading this, you’ve likely been directed here because your HRTF dataset did not pass Pachyderm's angular distance or coverage checks. This tool is designed to help you understand why.
+
+If your dataset passed these checks and loaded a binaural impulse response but the result was unexpected or contained visible artifacts, please reach out. Your feedback will help us identify the root cause and improve the robustness of this functionality.
 
 <img src="EmitterDirectionsOnUnitSphere.png" alt="Diagram" width="400" />
 
@@ -26,5 +27,6 @@ This tool helps you evaluate the spatial sampling quality of SOFA-format HRTF fi
 
 ## Contributing
 
-We welcome contributions, bug reports, and feature requests to improve the tool, especially aimed at enhancing the specificity of the diagnostics.  
-Please submit any issues or pull requests through the GitHub repository.
+We welcome contributions, bug reports, and feature requests aimed at improving the tool, particularly those that enhance the specificity and reliability of the diagnostics. Please submit any issues or pull requests via the GitHub repository.
+
+If you identify additional validation criteria that you believe should determine whether a dataset meets the quality standards for use in Pachyderm, we should consider incorporating these as active validation checks within Pachyderm itself. Please feel free to reach out so we can schedule a call to discuss the details. If you are not familiar with programming in Pachyderm, there is no need to worry — I will handle the implementation personally.
