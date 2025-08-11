@@ -1,6 +1,6 @@
 # HRTF Diagnostic Tool
 
-If you’re reading this, you’ve likely been directed here because your HRTF dataset did not pass the angular distance or coverage checks. This tool is designed to help you understand why.
+If you’re reading this, you’ve likely been directed here because your HRTF dataset did not pass Pachyderm's angular distance or coverage checks. This tool is designed to help you understand why.
 
 If your dataset passed these checks and loaded a binaural impulse response but the result was unexpected or contained visible artifacts, please reach out. Your feedback will help us identify the root cause and improve the robustness of this functionality.
 
