@@ -11,7 +11,7 @@ elevation = hrtf.SourcePosition(:,2); % elevation in degrees
 [x,y,z] = sph2cart(deg2rad(azimuth), deg2rad(elevation), 1);
 vectors = [x,y,z];
 
-% Separate hemispheres: let's define Front hemisphere as azimuth between -90° and 90°
+% Define front hemisphere as azimuth between -90° and 90°
 frontIdx = (azimuth >= -90) & (azimuth <= 90);
 backIdx = ~frontIdx;
 
