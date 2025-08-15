@@ -2,7 +2,7 @@
 
 If you’re reading this, you’ve likely been directed here because your HRTF dataset did not pass Pachyderm's angular distance or coverage checks. This tool is designed to help you understand why.
 
-If your dataset passed these checks and loaded a binaural impulse response but the result was unexpected or contained visible artifacts, please reach out. Your feedback will help us identify the root cause and improve the robustness of this functionality.
+If your dataset passed these checks and loaded a binaural impulse response but the result was unexpected or contained visible artifacts, please reach out. Your feedback will help us to improve the robustness of this functionality.
 
 <img src="EmitterDirectionsOnUnitSphere.png" alt="Diagram" width="400" />
 
