@@ -29,4 +29,4 @@ If your dataset passed the aforementioned checks and loaded a binaural impulse r
 
 We welcome contributions, bug reports, and feature requests aimed at improving the tool, particularly those that enhance the specificity and reliability of the diagnostics. Please submit any issues or pull requests via the GitHub repository.
 
-If you identify additional validation criteria that you believe should determine whether a dataset meets the quality standards for use in Pachyderm, we should consider incorporating these as active validation checks within Pachyderm itself. Please feel free to reach out so we can schedule a call to discuss the details. If you are not familiar with programming in Pachyderm, there is no need to worry — I will handle the implementation personally.
+If you identify additional validation criteria that you believe should determine whether a dataset meets the quality standards for use in Pachyderm, we should consider incorporating these as active validation checks within Pachyderm itself. Please feel free to reach out so we can schedule a call to discuss the details.
