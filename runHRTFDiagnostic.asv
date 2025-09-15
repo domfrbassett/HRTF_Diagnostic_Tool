@@ -1,7 +1,9 @@
 disp('Welcome to the HRTF Diagnostic Tool');
 disp('--------------------------------------------');
-disp('This tool lets you run basic sanity checks to evaluate the spatial sampling scheme of your HRTFs. As the program develops, additional diagnostics will be ');
-disp('introduced. Current tolerances are reasonable but only indicative—feel free to adjust them as needed.');
+disp('This tool lets you run basic sanity checks to evaluate the spatial sampling scheme of your HRTFs.  
+As the program develops, additional diagnostics will be introduced.  
+Current tolerances are reasonable but only indicative—feel free to adjust them as needed.
+')
 disp('Please enter the filename of your SOFA HRTF file (e.g. myHRTFDataset.sofa):');
 
 sofaFile = input('SOFA file: ', 's');
