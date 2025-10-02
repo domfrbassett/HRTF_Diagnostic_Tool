@@ -4,8 +4,6 @@ If you’re reading this, you’ve likely been directed here because your HRTF d
 
 If your dataset passed the aforementioned checks and loaded a binaural impulse response but the result was unexpected or contained artifacts, please reach out. Your feedback will help us to improve the robustness of this functionality.
 
-<img src="EmitterDirectionsOnUnitSphere.png" alt="Diagram" width="400" />
-
 ## System Requirements
 
 - **SOFA Toolbox for Matlab and Octave** version 2.2.0 or later is required.  
